@@ -12,4 +12,9 @@ final class GreetingsTest extends TestCase {
         $expectedOutput = "Hello World";
         $this->assertSame($expectedOutput, Greetings::sayHelloWorld());
     }
+
+    public function testSecret(): void {
+        $expectedOutput = "Hello somesecret";
+        $this->assertSame($expectedOutput, Greetings::sayHelloSecret());
+    }
 }

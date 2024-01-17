@@ -3,3 +3,4 @@
 .phpunit.result.cache
 coverage.xml
 .phpunit.cache
+.env

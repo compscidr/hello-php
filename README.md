@@ -1,4 +1,6 @@
 # hello-php
+[![codecov](https://codecov.io/gh/compscidr/hello-php/graph/badge.svg?token=mEfO0Gbz3n)](https://codecov.io/gh/compscidr/hello-php)
+
 Minimal setup with:
 - composer
 - php unit

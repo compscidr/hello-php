@@ -1,0 +1,22 @@
+{
+    "name": "jason/hello-php",
+    "description": "Hello World php with unit tests, coverage, composer etc.",
+    "autoload": {
+        "psr-4": {
+            "HelloPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jason Ernst",
+            "email": "ernstjason1@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10"
+    }
+}

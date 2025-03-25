@@ -3,11 +3,9 @@
 use HelloPhp\Greetings;
 use PHPUnit\Framework\TestCase;
 
-/**
- * @uses \HelloPhp\Greetings
- * @covers \HelloPhp\Greetings
- */
+#[\PHPUnit\Framework\Attributes\CoversClass(Greetings::class)]
 final class GreetingsTest extends TestCase {
+
     public function testHello(): void {
         $expectedOutput = "Hello World";
         $this->assertSame($expectedOutput, Greetings::sayHelloWorld());

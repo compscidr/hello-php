@@ -9,7 +9,8 @@ Minimal setup with:
 - secrets via .env
 
 ## local setup:
-- requires php >= 8.1
+- requires php >= 8.3
+- composer: `wget https://raw.githubusercontent.com/composer/getcomposer.org/f3108f64b4e1c1ce6eb462b159956461592b3e3e/web/installer -O - -q | php -- --quiet`
 - requires `php-dev`, `php-pear`
 - requires pcov: `sudo pecl install pcov`
 - copy the `sample.env` to `.env`

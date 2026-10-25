@@ -15,7 +15,7 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=8.2",
-        "vlucas/phpdotenv": "5.7.x"
+        "vlucas/phpdotenv": "5.8.x"
     },
     "require-dev": {
         "phpunit/phpunit": "^12"
